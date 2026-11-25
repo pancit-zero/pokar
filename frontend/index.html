@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--CABECERA-->
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-icon" aria-hidden="true">♠</span>
+            <div>
+                <h1> TEXAS HOLD'EM</h1>
+                <span class="table-code">Mesa privada</span>
+            </div>
+        </div>
+
+        <div class="table-info">
+            <div class="connection">
+                <span>Vista de demostracion</span>
+            </div>
+        </div>
+
+        <div class="table-code">
+            Mesa ABC123
+        </div>
+    </header>
+
+    <!--CONTENIDO PRINCIPAL-->
+    <main class="page">
+        <div class="page-heading">
+            <div>
+                <h2>Mesa de juego</h2>
+            </div>
+
+            <span class="round-label">Preflop - placeholder</span>
+        </div>
+
+
+        <!--MESA-->
+
+
+
+
+        <section class="table-area" aria-label="mesa de poker">
+
+            <div class="poker-table">
+                <div class="seat seat-1">
+                    <div class="name">Player 1</div>
+                    <div class="chips">1.000 chips</div>
+                    <div class="cards">
+                        <span class="playing-card back">?</span>
+                        <span class="playing-card back">?</span>
+                    </div>
+                </div>
+
+                <div class="seat seat-2">
+                    <div class="name">Player 2</div>
+                    <div class="chips">1.000 chips</div>
+                    <div class="cards">
+                        <span class="playing-card back">?</span>
+                        <span class="playing-card back">?</span>
+                    </div>
+                </div>
+
+                <div class="seat seat-3">
+                    <div class="name">Player 3</div>
+                    <div class="chips">1.000 chips</div>
+                    <div class="cards">
+                        <span class="playing-card back">?</span>
+                        <span class="playing-card back">?</span>
+                    </div>
+                </div>
+
+                <div class="seat seat-4">
+                    <div class="name">Player 4</div>
+                    <div class="chips">1.000 chips</div>
+                    <div class="cards">
+                        <span class="playing-card back">?</span>
+                        <span class="playing-card back">?</span>
+                    </div>
+                </div>
+
+                <div class="seat seat-5">
+                    <div class="name">Player 5</div>
+                    <div class="chips">1.000 chips</div>
+                    <div class="cards">
+                        <span class="playing-card back">?</span>
+                        <span class="playing-card back">?</span>
+                    </div>
+                </div>
+
+                <div class="seat seat-6">
+                    <div class="name">Tú</div>
+                    <div class="chips">1.000 chips</div>
+                    <div class="cards">
+                        <span class="playing-card red">A♥</span>
+                        <span class="playing-card">K♠</span>
+                    </div>
+                </div>
+
+                <!-- AREA CENTRAL -->
+                <div class="center-area">
+                    <div class="pot">Bote: 150</div>
+
+                    <div class="community-cards" aria-label="cartas comunitarias">
+                        <span class="playing-card red">A♦</span>
+                        <span class="playing-card">10♠</span>
+                        <span class="playing-card red">7♥</span>
+                        <span class="playing-card back">?</span>
+                        <span class="playing-card back">?</span>
+                    </div>
+                    <div class="game-status">Esperando tu accion</div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="controls" aria-label="Acciones">
+            <button class="fold" type="button">Retirarse</button>
+            <button class="check" type="button">Pasar</button>
+            <button class="call" type="button">Igualar</button>
+
+            <div class="bet-control">
+                <label for="bet-amount">Apuesta:</label>
+                <input id="bet-amount" type="number" min="1" step="1" value="100">
+            </div>
+
+            <button class="raise" type="button">Subir</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="note">
+            prototipo visual - fichas ficticias - sin conexion a servidor
+        </p>
+    </footer>
+
+</html>
